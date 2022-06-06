@@ -1,5 +1,5 @@
 # DDAGDL
-## paper "A geometric deep learning framework for drug repositioning over heterogeneous information networks"
+## Paper "A geometric deep learning framework for drug repositioning over heterogeneous information networks"
 
 ### 'data' directory
 Contain B-Dataset, C-dataset and F-dataset.
