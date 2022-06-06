@@ -5,14 +5,10 @@
 Contain B-Dataset, C-dataset and F-dataset.
 
 ### main.py
-To obtain train and test data, run
+To predict drug-disease associations by DDAGDL, run
   - python main.py 
   - -d is dataset selection, including B-dataset, C-dataset and F-dataset.
   - -n is the times of cross-validation
-
-###
-To predict drug-disease associations by DDAGDL, run
-  - python main.py
 
 ### Options
 See help for the other available options to use with *DDAGDL*
