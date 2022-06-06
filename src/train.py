@@ -115,7 +115,5 @@ def train(config):
 
     input_feature = attention(hops, adj, feature_list)
     Emdebding_input_feature = pd.DataFrame(input_feature.numpy())
-    # Emdebding_input_feature.to_csv('./data/18416/input_feature.csv', header=None,index=False)
-    # pd.DataFrame(weight[0].numpy()).to_csv('./data/18416/weight.csv', header=None,index=False)
     print("Local Smoothing is done.")
     return Emdebding_input_feature
